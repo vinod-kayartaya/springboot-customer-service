@@ -14,7 +14,7 @@ import lombok.Data;
 @XmlAccessorType(XmlAccessType.FIELD)
 @Data
 @Entity
-@Table(name = "CUSTOMERS")
+@Table(name = "customers")
 public class Customer {
 	@Id
 	@Column(name = "customer_id")
